@@ -50,12 +50,12 @@ func (p AreaPrinter) WithCenter(b ...bool) *AreaPrinter {
 // Update overwrites the content of the AreaPrinter.
 // Can be used live.
 func (p *AreaPrinter) Update(text ...interface{}) {
-	p.UpdateWithFixed(0, text...)
+	p.UpdateWithFixed(false, 0, text...)
 }
 
 // UpdateWithFixed overwrites the content of the AreaPrinter.
 // Can be used live.
-func (p *AreaPrinter) UpdateWithFixed(fixed int, text ...interface{}) {
+func (p *AreaPrinter) UpdateWithFixed(updateHeight bool, fixed int, text ...interface{}) {
 	if p.area == nil {
 		newArea := cursor.NewArea()
 		p.area = &newArea
@@ -85,7 +85,7 @@ func (p *AreaPrinter) UpdateWithFixed(fixed int, text ...interface{}) {
 			str += strings.Repeat("\n", bottomPadding)
 		}
 	}
-	p.area.UpdateWithFixed(str, fixed)
+	p.area.UpdateWithFixed(str, updateHeight, fixed)
 }
 
 // Start the AreaPrinter.
