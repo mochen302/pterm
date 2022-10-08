@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"sort"
 
-	"atomicgo.dev/cursor"
 	"atomicgo.dev/keyboard"
 	"atomicgo.dev/keyboard/keys"
 	"github.com/lithammer/fuzzysearch/fuzzy"
-	"github.com/pterm/pterm/internal"
+	"github.com/mochen302/cursor"
+	"github.com/mochen302/pterm/internal"
 )
 
 var (

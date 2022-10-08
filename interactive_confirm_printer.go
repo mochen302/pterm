@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"atomicgo.dev/cursor"
 	"atomicgo.dev/keyboard"
 	"atomicgo.dev/keyboard/keys"
+	"github.com/mochen302/cursor"
 )
 
 var (

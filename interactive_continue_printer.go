@@ -5,13 +5,13 @@ import (
 	"os"
 	"strings"
 
-	"atomicgo.dev/cursor"
 	"atomicgo.dev/keyboard"
 	"atomicgo.dev/keyboard/keys"
+	"github.com/mochen302/cursor"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/mochen302/pterm/internal"
 )
 
 var (

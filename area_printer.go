@@ -3,9 +3,9 @@ package pterm
 import (
 	"strings"
 
-	"atomicgo.dev/cursor"
+	"github.com/mochen302/cursor"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/mochen302/pterm/internal"
 )
 
 // DefaultArea is the default area printer.
@@ -80,6 +80,14 @@ func (p *AreaPrinter) Update(text ...interface{}) {
 		}
 	}
 	p.area.Update(str)
+}
+
+func (p *AreaPrinter) Down(n int) {
+	if p.area == nil {
+		newArea := cursor.NewArea()
+		p.area = &newArea
+	}
+	p.area.Down(n)
 }
 
 // Start the AreaPrinter.

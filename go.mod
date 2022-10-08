@@ -1,19 +1,21 @@
-module github.com/pterm/pterm
+module github.com/mochen302/pterm
 
 go 1.18
 
 require (
-	atomicgo.dev/cursor v0.1.1
 	atomicgo.dev/keyboard v0.2.8
 	github.com/MarvinJWendt/testza v0.4.3
 	github.com/gookit/color v1.5.2
 	github.com/lithammer/fuzzysearch v1.1.5
 	github.com/mattn/go-runewidth v0.0.13
+	github.com/mochen302/cursor v0.1.2
+	github.com/pterm/pterm v0.12.40
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
 	golang.org/x/text v0.3.7
 )
 
 require (
+	github.com/atomicgo/cursor v0.0.1 // indirect
 	github.com/containerd/console v1.0.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/klauspost/cpuid/v2 v2.1.0 // indirect

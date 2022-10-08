@@ -3,11 +3,11 @@ package pterm
 import (
 	"strings"
 
-	"atomicgo.dev/cursor"
 	"atomicgo.dev/keyboard"
 	"atomicgo.dev/keyboard/keys"
+	"github.com/mochen302/cursor"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/mochen302/pterm/internal"
 )
 
 var (

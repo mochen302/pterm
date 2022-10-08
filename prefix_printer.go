@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/mochen302/pterm/internal"
 )
 
 var (
