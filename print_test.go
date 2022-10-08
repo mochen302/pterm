@@ -8,8 +8,8 @@ import (
 
 	"github.com/MarvinJWendt/testza"
 
+	"github.com/mochen302/pterm"
 	"github.com/mochen302/pterm/internal"
-	"github.com/pterm/pterm"
 )
 
 // pterm.Sprint functions

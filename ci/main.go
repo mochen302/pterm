@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/mochen302/pterm"
 )
 
 type Examples struct {

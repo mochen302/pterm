@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/mochen302/pterm"
 
 func main() {
 	// Enable debug messages.

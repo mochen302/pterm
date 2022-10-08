@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/mochen302/pterm"
 	"github.com/mochen302/pterm/putils"
-	"github.com/pterm/pterm"
 )
 
 func main() {

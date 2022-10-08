@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/pterm/pterm"
+	"github.com/mochen302/pterm"
 	"reflect"
 	"time"
 )

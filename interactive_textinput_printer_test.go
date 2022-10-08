@@ -5,7 +5,7 @@ import (
 
 	"github.com/MarvinJWendt/testza"
 
-	"github.com/pterm/pterm"
+	"github.com/mochen302/pterm"
 )
 
 func TestInteractiveTextInputPrinter_WithDefaultText(t *testing.T) {

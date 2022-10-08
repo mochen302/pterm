@@ -8,8 +8,8 @@ import (
 	"github.com/MarvinJWendt/testza"
 	"github.com/gookit/color"
 
+	"github.com/mochen302/pterm"
 	"github.com/mochen302/pterm/internal"
-	"github.com/pterm/pterm"
 )
 
 func TestStylePrinterPrintMethods(t *testing.T) {

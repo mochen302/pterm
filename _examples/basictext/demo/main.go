@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/mochen302/pterm"
 
 func main() {
 	// A BasicText printer is used to print text, without special formatting.
